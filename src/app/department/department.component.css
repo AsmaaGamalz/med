@@ -1,0 +1,30 @@
+
+.contact{
+    padding-top: 40px;
+    height: auto;
+    overflow: hidden;
+  
+ }
+ 
+ .menuu li a{
+    color: #000;
+ }
+ .footer{
+     margin-top: 80px;
+     padding-left:110px;
+     font-size: 23px;
+     color:#fff;
+ }
+ .widgett h5{
+    color: #222;
+    font-family: 'Lato', sans-serif;
+    font-weight: 740;
+ }
+ .contact .p-sm{
+ color: #c5d1dc; 
+ font-size: 18px;
+  margin-top: 20px;
+ }
+ .hr{
+   color: #00a3c8;  
+ }

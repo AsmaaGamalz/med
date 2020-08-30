@@ -1,0 +1,19 @@
+
+
+/*contact*/
+.contact{
+    padding: 70px;
+ }
+ 
+ .menuu li a{
+    color: #000;
+ }
+ /*end contact*/
+ /*footer*/
+ .footer{
+    padding-left: 110px;
+    width: 100%;
+    height: 40px;
+    font-size: 22px;
+ }
+ /*end footer*/

@@ -1,0 +1,39 @@
+.dep-h{
+    font-size: 35px;
+    color:#00a3c8;
+}
+.dep p{
+    color:gray;
+}
+.dep-icon{
+     color:#00a3c8;
+   padding-bottom: 20px;
+}
+.depart{
+    border:1px solid #ccc;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    transition: all 300ms ease-in-out;
+}
+.depart-h{
+   color:#666666;
+}
+.depart:hover{
+    box-shadow: 3px 5px 3px 3px;
+    border: none;
+    color:#666666;
+}
+.deprt-1{
+    margin-bottom: 27px;
+    margin-top: 18px;
+}
+.contact{
+    padding: 70px;
+}
+
+.footer{
+    padding-left: 110px;
+    width: 100%;
+    height: 40px;
+}

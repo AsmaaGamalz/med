@@ -1,0 +1,298 @@
+
+#homee{
+   height:100%;
+   width:100%;
+   background-repeat: no-repeat;
+      background-size: cover;
+   }
+   #options{
+       position: fixed;
+       left:0px;
+       top:150px;
+       z-index:99999;
+   }
+   #color-options{
+       border:2px solid teal;
+       background-color: aqua;
+       float:left;
+       padding: 5px;
+   }
+   #color-options ul li {
+   width: 30px;
+   height: 30px;
+   background-color: black;
+   margin: 2px;
+   display: inline-block;
+   cursor: pointer;
+   }
+   #options i {
+   color: #fff;
+   cursor: pointer;
+   padding:10px;
+   float: left; 
+   background-color: teal; 
+   }
+
+
+
+
+
+   .gallery{
+      padding-top: 50px;
+       padding-bottom: 50px;
+       text-align: center;
+   }
+   .gallery h2{
+       font-weight: bold;
+       font-size: 30px;
+       color:var(--main-color);
+       margin: 0 0 50px;
+       text-align: center;
+   }
+   .gallery .images-box{
+       text-align: center;
+       
+   }
+   .gallery .images-box img{
+       width: 200px;
+      padding: 3px;
+       background-color: #f6f6f6;
+       border:1px solid #ccc;
+      margin:5px;
+       cursor: pointer;
+   }
+   
+   .popup-overlay{
+       position: fixed;
+       background-color: rgba(0,0,0,.7);
+       left: 0;
+       top:0;
+       width: 100%;
+       height: 100%;
+       z-index: 1000; 
+   }
+   .popup-box{
+       position: fixed;
+       left: 50%;
+       top:50%;
+       transform: translate(-50%,-50%);
+       background-color: #fff;
+        border:1px solid #ccc;
+       padding: 20px;
+       z-index: 1001;
+   }
+   .popup-box img{
+       max-width: 100%;
+   }
+   
+   
+
+
+
+
+
+/*home*/
+.navbar-nav li a{
+   padding-right: 10px;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+
+.navbar-nav .nav-link{
+color:#666666;
+padding-left: 60px;
+padding-top: 14px;
+}
+
+.navbar-brand img{
+ width: 198px;
+ margin-left: 90px;
+}
+
+.carousel-indicators li{
+ width: 10px;
+ height: 9px;
+ border-radius: 50%;
+ text-align: center;
+ border:1px solid #00a3c8;
+}
+/*end home*/
+/*department*/
+.dep-h{
+   font-size: 35px;
+   color:#00a3c8;
+}
+.dep p{
+   color:gray;
+}
+.dep-icon{
+    color:#00a3c8;
+  padding-bottom: 20px;
+}
+.depart{
+   border:1px solid #ccc;
+   text-align: center;
+   padding: 50px;
+   border-radius: 10px;
+   transition: all 300ms ease-in-out;
+}
+.depart-h{
+  color:#666666;
+}
+.depart:hover{
+   box-shadow: 3px 5px 3px 3px;
+   border: none;
+   color:#666666;
+}
+.deprt-1{
+   margin-bottom: 27px;
+   margin-top: 18px;
+}
+/*end department*/
+/*gallery*/
+.Galleryy{
+   padding-top: 70px;
+   margin: 80px;
+   height: 1000px;
+}
+.Galleryy h2{
+   font-weight: normal;
+}
+.Galleryy ul{
+   margin-top: 30px;
+}
+.Galleryy ul li{
+   display: inline-block;
+   border: 2px solid #D4cccc;
+   color:#A7A7A7;
+   padding: 10px;
+   border-radius: 6px;
+   margin-right: 5px;
+   
+}
+.select{
+   background-color:blue;
+}
+.Galleryy .galleryy{
+   margin-top: 20px;
+   overflow: hidden;
+}
+.Galleryy .galleryy .row > div:nth-child(2){
+   margin-right: 1%;
+   margin-left: 1%;
+}
+.Galleryy .galleryy .row > div{
+  /* width: 32.6666666;*/
+   float: left;
+   margin-bottom: 12px;
+   background-color: #DDD;
+   position: relative;
+}
+.Galleryy .galleryy .row > div .over{
+   position: absolute;
+   top:0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   width: 100%;
+   height: 100%;
+   line-height: 230px;
+   font-size: 20px;
+   font-weight: bold;
+   color:#fff;
+   text-align: center;
+   background-color: rgba(26,188,156,.9);
+   display: none;
+}
+.Galleryy .galleryy .row > div .heart{
+    position: absolute;
+   bottom: 20;
+   right: 20;
+   color:#fff;
+   display: none;
+}
+.Galleryy .galleryy .row > div:hover .over,
+.Galleryy .galleryy .row > div:hover .heart{
+   display: block;
+}
+.Galleryy .galleryy .row > div img{
+   width: 100%;
+}
+/*end gallery*/
+/*hospital*/
+
+.stat{
+   background:  lightgrey ;
+   /* height: 320px;
+    padding: 50px;*/
+    height: auto;
+    padding: 80px;
+    
+
+}
+.stat-item{
+    background-color: #f8f9fb;
+    height: 180px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    color: #00a3c8;
+}
+
+.stat-item p{
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+/*end hospital*/
+/*help*/
+.banner-txt{
+text-align: center;
+margin-top: 210px;
+font-size: 29px;
+color:#fff;
+}
+/*end help*/
+.contact{
+   padding-top: 40px;
+   height: auto;
+   overflow: hidden;
+ 
+}
+
+.menuu li a{
+   color: #000;
+}
+.footer{
+    margin-top: 80px;
+    padding-left:110px;
+    font-size: 23px;
+    color:#fff;
+}
+.widgett h5{
+   color: #222;
+   font-family: 'Lato', sans-serif;
+   font-weight: 740;
+}
+.contact .p-sm{
+color: #c5d1dc; 
+font-size: 18px;
+ margin-top: 20px;
+}
+.hr{
+  color: #00a3c8;  
+}
+button{
+position:fixed;
+bottom: 10px;
+right: 10px;
+display: none;
+padding:3px;
+color:#00a3c8;
+font-size: 23px;
+font-family: cursive;
+border-radius: 30%;
+border:none;
+}

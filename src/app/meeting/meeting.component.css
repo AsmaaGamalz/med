@@ -1,0 +1,83 @@
+.card{
+    text-align: center;
+}
+.card-title{
+margin-bottom: .75rem;
+    margin-top: 9px;
+    font-size: 25px;
+    color: #00a3c8;
+}
+.card-text{
+font-weight: 400;
+    line-height: 1;
+    font-size: 1.3rem;
+}
+.btn{
+color: #fff;
+background-color: #00a3c8;
+border-color: #00a3c8;
+margin-top: 10px;
+font-size: 1.4rem;
+padding: 14px 30px;
+border-radius: 10px;
+}
+.carousel {
+    height: auto;
+    padding:50px;
+   background-color: #f8f9fb;
+}
+
+
+
+.carousel-indicators li{
+    width: 10px;
+    height: 9px;
+    border-radius: 50%;
+    border:1px solid #00a3c8;
+   
+  
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact{
+    padding-top: 40px;
+    height: auto;
+    overflow: hidden;
+  
+ }
+ 
+ .menuu li a{
+    color: #000;
+ }
+ .footer{
+     margin-top: 80px;
+     padding-left:110px;
+     font-size: 23px;
+     color:#fff;
+ }
+ .widgett h5{
+    color: #222;
+    font-family: 'Lato', sans-serif;
+    font-weight: 740;
+ }
+ .p-sm{
+ color: #c5d1dc; 
+ font-size: 18px;
+  margin-top: 20px;
+ }
+ .hr{
+   color: #00a3c8;  
+ }

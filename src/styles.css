@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.bannerr{
+background-image: url("assets/image/banner-8.jpg");
+ height: 620px;
+}
+.technology{
+    background-image: url("assets/image/T.jpg");
+    height: 700px;
+}
+.stat{
+
+    background-image: url("assets/image/bg.jpg");
+    height: 450px;
+   padding-top: 120px;
+   margin-top: 0px;
+   color:#fff;
+  
+}
+.stat-item h2 span{
+    font-size: 55px;
+}
+.stat-item p{
+    font-size: 46;
+}
+.contact{
+    background-image: url("assets/image/fbg.jpg");
+    height: 450px;
+}

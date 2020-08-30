@@ -1,0 +1,21 @@
+
+
+.form-control{
+    font-size: 18px;
+    padding:29px;
+    border-radius: 3%;
+}
+
+.contactt{
+    height: auto;
+    padding: 60px 60px;
+}
+.contactt-content h3{
+color: #004861;
+font-size: 31px;;
+}
+.contactt-text{
+    color: #888;
+    font-size: 21px;
+   font-family:cursive;
+}

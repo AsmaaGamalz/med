@@ -1,0 +1,113 @@
+<section class="contactt  pt-4 mt-3">
+    <div class="container">
+
+        <div class="row m-auto text-center">
+            <div class="col-md-9  m-auto" >
+    <h2 style="font-size:40px; color: #004861;">Have a Question? Get In Touch</h2>
+        <div class="line"></div>
+                <p class="pp pt-4" style=" color: #888; font-size: 26px; font-family:cursive;">Have a question? Want to book an appointment for yourself or your children? Give us a call or send an email to contact the MedService.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+        <h3 class="lowercase pt-5" style="color: #004861;
+        font-size: 31px;">General Information</h3>
+        <div class="contactt-content clearfix">
+                            <div class="contactt-text ">
+                               
+                                <p>121 King Street, Melbourne,<br>
+
+                                    Victoria 3000 Australia
+                                    
+                                   <br> Phone: +12 9 8765 4321</p>
+                                    <span>Email: hello@yourdomain.com</span>
+                            </div>
+                        </div>
+        <div class="contactt-content clearfix">
+            <h3>Patient Experience</h3>
+                            <div class="contactt-text">
+                                <p>121 King Street, Melbourne,<br>
+
+                                    Victoria 3000 Australia<br>
+                                    
+                                    Phone: +12 9 8765 4321</p>
+                                    <span>Email: hello@yourdomain.com</span>
+                            </div>
+                        </div>
+       <div class="contactt-content clearfix">
+                            <h3>Working Hours</h3>
+                            <div class="contactt-text">
+                             <p>Monday – Friday : 8:00 AM - 8:00 PM<br>
+
+                                Saturday : 10:00 AM - 6:00 PM<br>
+                                
+                                Sunday : 10:00 AM - 4:00 PM</p>
+                            </div>
+                        </div>
+        
+            </div>
+
+
+       <div class="col-md-6">
+          
+
+        <div class="body">
+          <h2 class="text-center">Contactus</h2>
+          <form #f="ngForm" (ngSubmit)="login(f)">
+          <input ngModel name="name" #name="ngModel" class="form-control" placeholder="Your name" required>
+          <div class="alert alert-danger" *ngIf="name.invalid && name.touched">Name is reuired</div>
+          
+          <input ngModel name="email" #email="ngModel" class="form-control" placeholder="Email" required>
+          <div class="alert alert-danger" *ngIf="email.touched && email.errors?.required">Your input doesnt match</div>
+          <div class="alert alert-danger" *ngIf="email.touched && email.errors?.mail">Your input doesnt match</div>
+          
+          <input ngModel name="password" #password="ngModel" class="form-control" placeholder="password" required>
+          <div class="alert alert-danger" *ngIf="password.touched && password.errors?.required">password is require</div>
+          <div class="alert alert-danger" *ngIf="password.touched && password.errors?.minlength">password should be 6+ character</div>
+          
+          
+          <input ngModel name="passwordconfirm" #passwordconfirm="ngModel" class="form-control" placeholder="confirmpassword" required>
+          <div class="alert alert-danger" *ngIf="passwordconfirm.invalid && passwordconfirm .touched">confirmpassword is required</div>
+          <div class="alert alert-danger" *ngIf="passwordconfirm.value !== password.value && passwordconfirm .touched">password not request</div>
+          
+          
+          <input ngModel name="address" #address="ngModel" class="form-control" placeholder="Address" required>
+          <div class="alert alert-danger" *ngIf="address.invalid && address .touched">Address is required</div>
+          
+          <button type="button" class="btn btn-primary" [disabled]="f.invalid || passwordconfirm.value !== password.value">Create account</button>
+          </form>
+          
+          
+          </div>
+     
+
+
+
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </div>
+
+     </div>
+</section>
