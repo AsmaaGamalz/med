@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import{MedService} from '../med.service';
 declare var $: any;
 
 @Component({
@@ -10,10 +11,13 @@ export class HomeComponent implements OnInit {
 
 
 
-  constructor() { 
-
+  constructor(private _MedService:MedService) { 
+_MedService. gettrending().subscribe(response =>{
+  console.log(response)
+})
 
   }
+
 
   ngOnInit(): void {
   
@@ -75,7 +79,22 @@ mybutton.onclick = function(){
 
 
 
+var head= document.getElementsByClassName('according');
+var i;
+for( i=0; i<head.length;i++){
+  head[i].addEventListener('click',function(){
+    this.classList.toggle('active');
+    var desc = this.nextElementSibling;
+    if( desc.style.maxHeight){
+      desc.style.maxHeight=null;
+    }
+    else{
+      desc.style.maxHeight = desc.scrollHeight + "px";
+    }
+  });
 }
 
 
+
+}
 }

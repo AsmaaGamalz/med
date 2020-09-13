@@ -10,6 +10,7 @@
        left:0px;
        top:150px;
        z-index:99999;
+       
    }
    #color-options{
        border:2px solid teal;
@@ -34,62 +35,42 @@
    }
 
 
+  
+.container{
+   width: 80%;
+   margin: 50px auto;
+}
 
+.according{
+   width: 100%;
+   border:0px;
+   background:#eee;
+   font-size: 16px;
+   padding: 20px;
+   text-align: left;
+   cursor: pointer;
+   outline: 0;
+}
 
+.according:hover{
+   background-color:#ccc ;
+}
 
-   .gallery{
-      padding-top: 50px;
-       padding-bottom: 50px;
-       text-align: center;
-   }
-   .gallery h2{
-       font-weight: bold;
-       font-size: 30px;
-       color:var(--main-color);
-       margin: 0 0 50px;
-       text-align: center;
-   }
-   .gallery .images-box{
-       text-align: center;
-       
-   }
-   .gallery .images-box img{
-       width: 200px;
-      padding: 3px;
-       background-color: #f6f6f6;
-       border:1px solid #ccc;
-      margin:5px;
-       cursor: pointer;
-   }
-   
-   .popup-overlay{
-       position: fixed;
-       background-color: rgba(0,0,0,.7);
-       left: 0;
-       top:0;
-       width: 100%;
-       height: 100%;
-       z-index: 1000; 
-   }
-   .popup-box{
-       position: fixed;
-       left: 50%;
-       top:50%;
-       transform: translate(-50%,-50%);
-       background-color: #fff;
-        border:1px solid #ccc;
-       padding: 20px;
-       z-index: 1001;
-   }
-   .popup-box img{
-       max-width: 100%;
-   }
-   
-   
-
-
-
-
+.according:after{
+content: "\002B";
+float: right;
+font-weight: bold;
+color:#777;
+}
+.active:after{
+   content: "\2212";
+}
+.desc{
+   padding: 0 15px;
+   max-height: 0;
+   overflow: hidden;
+   transition: 0.3s;
+}
 
 /*home*/
 .navbar-nav li a{
@@ -97,7 +78,6 @@
    text-decoration: none;
    font-weight: bold;
 }
-
 
 .navbar-nav .nav-link{
 color:#666666;
@@ -110,13 +90,7 @@ padding-top: 14px;
  margin-left: 90px;
 }
 
-.carousel-indicators li{
- width: 10px;
- height: 9px;
- border-radius: 50%;
- text-align: center;
- border:1px solid #00a3c8;
-}
+
 /*end home*/
 /*department*/
 .dep-h{
@@ -284,15 +258,9 @@ font-size: 18px;
 .hr{
   color: #00a3c8;  
 }
-button{
-position:fixed;
-bottom: 10px;
-right: 10px;
-display: none;
-padding:3px;
-color:#00a3c8;
-font-size: 23px;
-font-family: cursive;
-border-radius: 30%;
-border:none;
+.buton{
+   padding: 16px;
+   color:bisque;
+   background-color: #00a3c8;
+   border-radius: 10px;
 }

@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import{ FormsModule } from '@angular/forms';
-import{ AngularFireModule} from'@angular/fire';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -14,6 +13,8 @@ import { SseriveComponent } from './sserive/sserive.component';
 import { DdepartmentComponent } from './ddepartment/ddepartment.component';
 import { NavComponent } from './nav/nav.component';
 import { MeetingComponent } from './meeting/meeting.component';
+
+import{HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -33,17 +34,10 @@ import { MeetingComponent } from './meeting/meeting.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    AngularFireModule.initializeApp({
-      apiKey: "AIzaSyApAxgQ0du3uMN76mPYLFTYKTVzxxaQceg",
-      authDomain: "chemical-8b29a.firebaseapp.com",
-      databaseURL: "https://chemical-8b29a.firebaseio.com",
-      projectId: "chemical-8b29a",
-      storageBucket: "chemical-8b29a.appspot.com",
-      messagingSenderId: "831729955624",
-      appId: "1:831729955624:web:9f4530ab8efdd8c749161d",
-      measurementId: "G-DMBQKD7L2W"
-    })
+  
+    HttpClientModule,
   ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })
